@@ -15,3 +15,7 @@ Usage
 ```ruby
 RbScreenShot.take 'https://github.com/kaiinui/rbscreenshot'
 ```
+
+gives
+
+![](https://raw.githubusercontent.com/kaiinui/rbscreenshot/master/SS.png)
