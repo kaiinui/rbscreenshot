@@ -1,6 +1,8 @@
 rbscreenshot
 ============
 
+[![Gem Version](https://badge.fury.io/rb/rbscreenshot.svg)](http://badge.fury.io/rb/rbscreenshot)
+
 Take a screenshot in one line.
 
 Usage
