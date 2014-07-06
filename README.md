@@ -18,6 +18,6 @@ Usage
 RbScreenShot.take 'https://github.com/kaiinui/rbscreenshot'
 ```
 
-gives
+gives `./#{timestamp}.png` where `timestamp` is like `1404631139` (`RbScreenShot.take` returns the file name.)
 
 ![](https://raw.githubusercontent.com/kaiinui/rbscreenshot/master/SS.png)
