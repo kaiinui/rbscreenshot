@@ -3,18 +3,12 @@ require 'capybara/poltergeist'
 
 class RbScreenShot
   class << self
-    def take(url)
-      session(url).save_screenshot(filename, full: true)
-      filename
+    def take(url, full: true)
+      session(url).save_screenshot("#{Time.now.to_i.to_s}.png", full: full)
     end
 
     def take_part(url)
-      session(url).save_screenshot(filename)
-      filename
-    end
-
-    def filename
-      "#{Time.now.to_i.to_s}.png"
+      take(url, full: false)
     end
 
     def session(url)
